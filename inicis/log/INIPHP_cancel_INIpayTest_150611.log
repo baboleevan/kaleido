@@ -1,0 +1,466 @@
+INFO	[2015-06-11 21:32:59:458] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:32:59:458] <3880> inipayhome:file:///C:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50/
+DEBUG	[2015-06-11 21:32:59:458] <3880> type:cancel
+DEBUG	[2015-06-11 21:32:59:458] <3880> debug:true
+DEBUG	[2015-06-11 21:32:59:458] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:32:59:458] <3880> admin:1111
+DEBUG	[2015-06-11 21:32:59:458] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:32:59:458] <3880> cancelmsg:123
+INFO	[2015-06-11 21:32:59:458] <3880> Check Field OK
+INFO	[2015-06-11 21:32:59:458] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:32:59:460] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:32:59:481] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:32:59:482] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:32:59:529] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg urlencode="1">123</CancelMsg>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:32:59:530] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:32:59:531] <3880> SIGN OK
+INFO	[2015-06-11 21:32:59:532] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:32:59:532] <3880> MSG_TO_PG:[0088500175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>Cqgcg42Tp6id9JhcS0wXWkC77K8LWXq/SAUXkRaNkIAFT7taE8pITbh+YwjPY5RV
+wTtEKQnTPFr4B0VkpQi8PtudcpPYYGgfyOXLrYDgo+01TsNMseROKX3k5Pn1wXjI
+nmxoQRL159ZPn4f8S0eobuq9geLHMCqbKnJNrzz8v/uu1fmd3f69fw==
+</SessionKey>
+	    <Encrypted>xsEyOULUZHu5L6J6SPa0x42LwLgo+JLP+ztP5PvDwP0zvLSZddls81O+rEEx987n
+C0Aojc0EaTSmGKAmVTMdwnJx2f94ZDijNywcVXQl5OP5jwIjwSx9ExNdDniJHoZ0
++R+W/tHT7eSPqCy8SfdFS7QIeDg4ooyM5eQmZVBSI92oHgW+T02m+370iyQNbgCs
+fvN0Y4l7SdT/MSQU3y/MGWGfXKSk9I0adgUQO+JmcGjGZDc8nrOicL7CujdrFSaQ
+89OGU9wppaY=
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>7XOO9UAG4JwEyHQslaHGz3d0VW3q4GB6BD545Z800mQIy09zdrShOZtQng5gIp0s
+RnHz3vnhwirx0CcCeZX7JNgQUpLYuZmxLBL4XoZ7kUHu3iozcrxYNbDHctdcOT3s
++F+kr5RNr0rLxUIw+NPskKKAH/VHG7Md9DHQTeFyTVU=
+]
+INFO	[2015-06-11 21:39:03:229] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:39:03:229] <3880> inipayhome:C:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50
+DEBUG	[2015-06-11 21:39:03:229] <3880> type:cancel
+DEBUG	[2015-06-11 21:39:03:229] <3880> debug:true
+DEBUG	[2015-06-11 21:39:03:229] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:39:03:229] <3880> admin:1111
+DEBUG	[2015-06-11 21:39:03:229] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:39:03:229] <3880> cancelmsg:test
+INFO	[2015-06-11 21:39:03:229] <3880> Check Field OK
+INFO	[2015-06-11 21:39:03:229] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:39:03:230] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:39:03:230] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:39:03:231] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:39:03:232] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg urlencode="1">test</CancelMsg>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:39:03:233] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:39:03:235] <3880> SIGN OK
+INFO	[2015-06-11 21:39:03:235] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:39:03:235] <3880> MSG_TO_PG:[0088500175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>URBDSu22VEEHL+V1z5+R0ST/G8Ug+rd2vSR/FWLq+IZtBLn1gUWCt8c/huwLzesH
+2mpUF+g/2TKs9JLFxz8tyhUoLeP2TAAwzYz7fSb/z+oan8VKY/XQ1EwyOuNMBhfb
+gf0xFNUo3UH61GsZMJEas9YH/3oD+RLVaUgrZ+iZ556FsyAhO19Rjg==
+</SessionKey>
+	    <Encrypted>m9pBmxi0Tln7lsUaZFAUCtcSCNwZorjTFkInp0ZpMzNkk9hd4hX++hkRLFFufKkL
+OugJMzv8AGdaCF9tCaqF5s+GNBL6HGBExiDlsCwvc/6Sw3hsEEWIZzCIoSIlZ9m/
+AxR9Nr5+fzRABW41aZoyiwvmhnHX2blnnHZCxQnAtYFCp9dXpaBCbdl2yh7h8WNZ
+cTIMKo5k3U7qBQuLfjcU3TMa1v12/zrfYWamo/KPYp8Lh1cFwlptaAX7xaT5dG2R
+cSpg/r569e4=
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>DQenoGMjfhJRLqSwR08/hnLZ4Ut0KM0j9afYLP9wKggmx922OS8LDZahkB1CSACJ
+yheg7z7gjFLNJ6hjLAzMR3FMQ9A2bEhFapfT2qihdoQGoJRdEwPd3mVGzuAyZshY
+zIOnfWqXFBZHl5C6hqBbRriEd4JQ+it1Y9ZNEXmGnxo=
+]
+INFO	[2015-06-11 21:39:49:673] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:39:49:673] <3880> inipayhome:C:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50
+DEBUG	[2015-06-11 21:39:49:673] <3880> type:cancel
+DEBUG	[2015-06-11 21:39:49:673] <3880> debug:true
+DEBUG	[2015-06-11 21:39:49:673] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:39:49:673] <3880> admin:1111
+DEBUG	[2015-06-11 21:39:49:673] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:39:49:673] <3880> cancelmsg:
+INFO	[2015-06-11 21:39:49:673] <3880> Check Field OK
+INFO	[2015-06-11 21:39:49:673] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:39:49:674] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:39:49:674] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:39:49:674] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:39:49:675] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg/>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:39:49:676] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:39:49:677] <3880> SIGN OK
+INFO	[2015-06-11 21:39:49:677] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:39:49:677] <3880> MSG_TO_PG:[0084000175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>OnLLWb9yLxqvXAVzhDSG/3lj0DfSWK21bkjkXn1hOXN9qXHTYj2Keh52JHpc8Ubx
+kyGXfszkoaOwbnzTBJ2B9ux9FNwMcJMJBe0RjLgfQWxgJvbNVjk5laGtBWxliDxa
+UvYXu00kGMFpjw2cFT+f22SKkFugRzmUsnaBtR7KX3JMVyHkfHPBVQ==
+</SessionKey>
+	    <Encrypted>GbSTHbvtilEto4aHa6wXGEMNejkpPehowcO+DY8VcSxMgfmelaaCLb3sRXxX55jw
+EbEpKdK1nk5HiBTUQnNWO0Skdqa5cncb+L6pLF8Ui8f3CyvfpJFH8E+YLR7OdZET
+DSPygM+gw6z4M22/M/t+RSSoGKxrQDpmsJfk4d8bVi+DwJ5BrXJL/C9I41mn/E30
+d1gu5L/otMrWOUFXOYZoHoY/pxskpfNt
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>56wTfF+6IHkKkjj4dBUXPmZ7H/7HWTMWTJ5TrobHboDNEzNeGHzTRX9neTsP7OeZ
+JJOWcz1vkqbBvdR/igP/PFwY7JAW4HbE1bxpHxew0FQQFeKlKePC90zRUJGdOXXa
++7lGU6AdNOeeCYjvW0YU3GP0pC++4g8Y4zVzctm1x7U=
+]
+INFO	[2015-06-11 21:42:58:224] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:42:58:224] <3880> inipayhome:C:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50
+DEBUG	[2015-06-11 21:42:58:224] <3880> type:cancel
+DEBUG	[2015-06-11 21:42:58:224] <3880> debug:true
+DEBUG	[2015-06-11 21:42:58:224] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:42:58:224] <3880> admin:1111
+DEBUG	[2015-06-11 21:42:58:224] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:42:58:224] <3880> cancelmsg:test
+INFO	[2015-06-11 21:42:58:224] <3880> Check Field OK
+INFO	[2015-06-11 21:42:58:224] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:42:58:225] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:42:58:226] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:42:58:226] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:42:58:227] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg urlencode="1">test</CancelMsg>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:42:58:228] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:42:58:231] <3880> SIGN OK
+INFO	[2015-06-11 21:42:58:231] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:42:58:231] <3880> MSG_TO_PG:[0088500175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>FfiA3t0L6vtc5fwK6BZbxI9bpbLffWJysMExnIsjfIlK0jQyBJPMJ83n3e+sUDVz
+VYlAEg+Qmrl1YRQhZlPyy2BlSzOx3yI4kFjc+zUNrdFJPTPKoPES0BLRjtkS3obA
+Eb/Vaj+zsRGECPgokeUNmVVHCbf1kGbJ4el243EQ29Mhv+goY8IxaQ==
+</SessionKey>
+	    <Encrypted>ZlwcPekLVZkJNtkxiZR+f+UYCkblihHfxTOdfLzktptWOiY57yUtj8Irrjt/te8H
+/VXSwK//2UstJ9MwE9nZEGD14N+oosrMmWMUtzxvozHOQlPuVNp3YrrehPFSZliA
+jQqcWQyREvMNjtXkpY4sahueWwVgXIrlogkZ4ADp8nRBpPe6SVMl1CtA7hvMObgG
+tFb0XT3wMnRgWXyOP/aeBcoqy5pqPHQu3jnvHL4mIPwyGIqZlqsinTQ4iUwYsqVP
+IM1c11Os7aY=
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>BEE5uaLXowSUo3k8ij1F7MdgNKW5mDK8iyIUQ5m0p2WoIdlnJOjbLUGUAsIu0bYX
+c4PkeEH6CCKBQZzt9WKf2kYN5nPT6iF5lU9XSCTA1sFZNQ1VIiReHOvyuSOLrcDW
+0zCg96I18N6/X/wH/Q6W4eTFiNSkTTMG7pLgTMJvvzQ=
+]
+INFO	[2015-06-11 21:43:22:618] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:43:22:618] <3880> inipayhome:C:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50
+DEBUG	[2015-06-11 21:43:22:618] <3880> type:cancel
+DEBUG	[2015-06-11 21:43:22:618] <3880> debug:true
+DEBUG	[2015-06-11 21:43:22:618] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:43:22:618] <3880> admin:1111
+DEBUG	[2015-06-11 21:43:22:618] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:43:22:618] <3880> cancelmsg:
+INFO	[2015-06-11 21:43:22:618] <3880> Check Field OK
+INFO	[2015-06-11 21:43:22:618] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:43:22:619] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:43:22:620] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:43:22:620] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:43:22:622] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg/>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:43:22:622] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:43:22:624] <3880> SIGN OK
+INFO	[2015-06-11 21:43:22:624] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:43:22:624] <3880> MSG_TO_PG:[0084000175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>sfm9k6wzZoKlO6S7quMIeKIF9jg5mTg43T50AoqOG67fqHui1UK1+x0DoJufQxwc
+8GPoOT1qMA+ZN+5wU92F8ZkiDIcrvziDCo2uE87Qp9cOrOB5z8E71F+9M4ScylZ2
+aiirZntx1C7Zzt6kA2B/vL3C9dJ3wgcTepxKhIi6AgdQxOzkwR0Z1A==
+</SessionKey>
+	    <Encrypted>t3RHhQ91QZGrEjXnYCk7qTPd86kKTG87WIiQ83tiyTogjP3Iey1BtAOeB3cgcynD
+dUsZUCP+Ukg+XDr/rBkn019m98HJTbJavibCFn+ThxHbzqnPSfycAFZ+z0hpsyQY
+TEOeReIRkeU+R+svRRnlKPomLfRX0px7yNldIu5lsVZsrDFJtWfEeqgw/M0KpQqZ
+OVVw3+7xvvMBf/t9jy5hoY4of37In6PX
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>+wvjUMo5aKMz+4IYe7g7nQEkVWgiQG5wIk+rVMG39j2l3mZsuiDD4kpmsvQeYlbz
+61E/KJ3koaKDtyp/5YenUdlZZMNydsUFKajJX9fKL6x4jNHJwWUzd9DfqrrvQ3jq
+5792ka5IRT3B6B64gctZZh/FxQPQh3mk3954gN18V3g=
+]
+INFO	[2015-06-11 21:44:49:827] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:44:49:827] <3880> inipayhome:C:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50
+DEBUG	[2015-06-11 21:44:49:827] <3880> type:cancel
+DEBUG	[2015-06-11 21:44:49:827] <3880> debug:true
+DEBUG	[2015-06-11 21:44:49:827] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:44:49:827] <3880> admin:1111
+DEBUG	[2015-06-11 21:44:49:827] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:44:49:827] <3880> cancelmsg:
+INFO	[2015-06-11 21:44:49:827] <3880> Check Field OK
+INFO	[2015-06-11 21:44:49:827] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:44:49:828] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:44:49:829] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:44:49:830] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:44:49:831] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg/>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:44:49:831] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:44:49:834] <3880> SIGN OK
+INFO	[2015-06-11 21:44:49:834] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:44:49:834] <3880> MSG_TO_PG:[0084000175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>Vg9xMhnus/x81BkmouRu5QoQHhF87wQgUp22k6Ywi1KfBe1Wh8E24doL0yYjQswO
+DwwJ8q7Xlcd/iXKEx/s9/LVb+FtW6Kx5p4MPWz28rnA5+fL7pJ0OfGiN4n0yRWrr
+xGTRoeWvU8TmMjXYHbq4s6YifRNqGQwGkaDgwJAHbvOMUNWF88uYPg==
+</SessionKey>
+	    <Encrypted>s033enerDsrSPSdtPfcONlA5G3Zy9FRG3o1QuI8/rjJ3Qe6M48dTh2B+7Jo6IFSf
+J0gTuTKGTTXenzWfZRNJanH5mdjJ1xqCbNYkAjcSs+O+3wIN1/qapyDqME84OVVi
+Q0LnpE6pp7FlCPHtulcQG+wtSBEulKPuYw1I4XV2tFwpilAJHN0KlFU0PgYGKqMS
+5sNJMedXJqBLKKHIQD9JyZCFqUyUUlI3
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>czti75oPh0pU4M+1//Tx4+yvb/KfYEIiVfQXqrP2IhHE2cDSvUbQCv9vxYIcXjJm
+ylbE1TC5LKmQHO+lrNaQRaz1BWpO46oIHeekWZ/Y+Z+e0TxOY7/h1Mm2M1VIAI7w
+uY0xzNN68E0rKSIzSSOn9eQIahrAX05ROChlLZFJXhg=
+]
+INFO	[2015-06-11 21:46:03:87] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:46:03:87] <3880> inipayhome:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50
+DEBUG	[2015-06-11 21:46:03:87] <3880> type:cancel
+DEBUG	[2015-06-11 21:46:03:87] <3880> debug:true
+DEBUG	[2015-06-11 21:46:03:87] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:46:03:87] <3880> admin:1111
+DEBUG	[2015-06-11 21:46:03:87] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:46:03:87] <3880> cancelmsg:123
+INFO	[2015-06-11 21:46:03:87] <3880> Check Field OK
+INFO	[2015-06-11 21:46:03:87] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:46:03:88] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:46:03:89] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:46:03:90] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:46:03:91] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg urlencode="1">123</CancelMsg>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:46:03:91] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:46:03:94] <3880> SIGN OK
+INFO	[2015-06-11 21:46:03:94] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:46:03:94] <3880> MSG_TO_PG:[0088500175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>c59WNSoLeDahdGGcRWlHJG9M0wWUm1vYDDlr4VLDXLpepRzAYVk9dUKHDf/7f4OV
+9/mnt9lKDfeHNr2hJCCwo7IdYKIizpBu7V4wZRGx6c+Qp/MXZSoCIxYJvmwliNFc
+FqOdYMkcomJf2ExjJhJBNI7J8xYV2vi6tqAPLXLpdBnKN0YEo1w0kQ==
+</SessionKey>
+	    <Encrypted>Npogyxg+ocafRnjVrign4UelInHdt2IYW6FbdGUI2FOX8IBsHOLt+G353+o41Dh6
+ecQq0u6HZGjVZgFy86T8EJZhvr0uuAtK5NRdm41FahbnplY3S6lg7v1xuXF0Lzp0
+3OmrrxaqwvIoKHTCsjV4/Q46KOKjSHZk1q8UUQn2dDj1SJ8g9drw89h976XheDdp
+nvAuEAQXkEx6O0uYETYUfLBxup6dW9z8nRv1T82IoFZltr7VCzCFvAEsxH5cNt/a
+H56NMDSMxsE=
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>WYBXXm+x6xqq+toMhy0W1fymQBlhRUvHNXl1b8doPKCw0FdJbbCzDRlDGbbk6zG3
+fJUr7mGNYlL71eSXu1DdKz/UaCn4ymfydRmaqLAWuAZj5bcnilSVmYYlFXFanhyn
+GW4dyroWYVnPKNYNXs4yFp5aTSwc9DTH3/M15DqDoVk=
+]
+INFO	[2015-06-11 21:47:51:597] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:47:51:597] <3880> inipayhome:file:///C:/Bitnami/wampstack-5.5.25-0/apache2/htdocs/INIpay50/
+DEBUG	[2015-06-11 21:47:51:597] <3880> type:cancel
+DEBUG	[2015-06-11 21:47:51:597] <3880> debug:true
+DEBUG	[2015-06-11 21:47:51:597] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:47:51:597] <3880> admin:1111
+DEBUG	[2015-06-11 21:47:51:597] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:47:51:597] <3880> cancelmsg:123
+INFO	[2015-06-11 21:47:51:597] <3880> Check Field OK
+INFO	[2015-06-11 21:47:51:597] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:47:51:598] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:47:51:598] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:47:51:599] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:47:51:600] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg urlencode="1">123</CancelMsg>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:47:51:600] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:47:51:601] <3880> SIGN OK
+INFO	[2015-06-11 21:47:51:602] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:47:51:602] <3880> MSG_TO_PG:[0088500175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>PIq+guG4laQNyexl4nR/IlEmrh9tvtFwJJA9F6+ziKV6plvIanRYu0CXKioQCxRO
+IIVd51E22O8wMfeu20bJPqJ4YAddy3roymHzYcNPRtqsoV892rT9EJQyMgLlw+Qb
+KI1eif4Dmd5Ws4UZggwXoccXmmotECpKtTI7eK+EtewrnTwDyWPswA==
+</SessionKey>
+	    <Encrypted>WAmlcAQyvCLYjUldQsHWUoTDeZmCf9U71WJWlNXDm7CmEh4NJ9uSpmtWl7a32hlh
+4lBpR0K9I9myNWasKV/fcm3GHgk711+GrXmgq1m7nAQZMLKB4mddvbS/Fg7duTer
+pKBdsU44lhbT2GRcnXZwDfIx+lLV1wh5wRrxyutiDtruR5tTOIm2+l3ckEwKwS/I
+mXU/VvuA2dHP13fNMKuUxLifVnG/3Ua6COOgTOBTMJje1iymx+FwJ9KjQnAZPGv9
+nWIMPEKBfVM=
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>hvMafH/gjJxqSvLbuFsmH4/jaL+oxa2abCQeBkR882rSIvY2VRio+Q19xT+mfC/s
+1uSNsJ+n8ut49Al4z0D8Agd+7aXGJ1LiN2M5Gu4xtkFR0HtOeco37TgwLOBvixto
+/zpgskHQqZ7kFXobp/zpy/sgSXiH4qHrnYNWbhrwMf4=
+]
+INFO	[2015-06-11 21:50:06:593] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 21:50:06:593] <3880> inipayhome:C:\Bitnami\wampstack-5.5.25-0\apache2\htdocs\INIpay50
+DEBUG	[2015-06-11 21:50:06:593] <3880> type:cancel
+DEBUG	[2015-06-11 21:50:06:593] <3880> debug:true
+DEBUG	[2015-06-11 21:50:06:593] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 21:50:06:593] <3880> admin:1111
+DEBUG	[2015-06-11 21:50:06:593] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 21:50:06:593] <3880> cancelmsg:123
+INFO	[2015-06-11 21:50:06:594] <3880> Check Field OK
+INFO	[2015-06-11 21:50:06:594] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 21:50:06:595] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 21:50:06:596] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 21:50:06:596] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 21:50:06:597] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg urlencode="1">123</CancelMsg>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 21:50:06:597] <3880> MAKE BODY OK
+INFO	[2015-06-11 21:50:06:599] <3880> SIGN OK
+INFO	[2015-06-11 21:50:06:599] <3880> MAKE HEAD OK
+INFO	[2015-06-11 21:50:06:599] <3880> MSG_TO_PG:[0088500175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>tJdb35PZZMODvCxd746Uf9cru+psyMwzLvs7X9zIuWA06ZbSISiJc41ZE3x1b+AO
+pep7/nXVDtX/7Qe3FMTMb873mTJt7G6DRRJjYbsUCqe3VQBhrSpgdXwe4Oiy0hPU
+f0y67Rxkz683fMkjm+9WKdqAr9P+v+OkbZKKsd8UQ5DpkUe3Ukk9oA==
+</SessionKey>
+	    <Encrypted>3CiY9+65zfOnC5cc74pJcOs/JpUpt7MDUEthM7iK5lKUCxtQJBC91jWxC7U7zLDN
+EbTi7mLni//4Px3R+YNjdxh6T++dUDKgw5FWi3vwAFj/gO+szAfG8zz6N0F4N8UW
+TMuIpR9RCJ/WNhuH0PgZdjmI8hQeMGpeVvV55s1i5yQtyI3pT2FfOVvAZUwJE4g3
+PbM12JwQosgr+sRsafcDJXnrbEpq2qRFmzw7moq/TyLznXc6fJnSXZFhAoK6uQ8N
++8FJmxrAWy8=
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>oS83umUUyBYPqVVeMt6PPnOI2haZXwfZj+7pBbdIKzh7Hnt0swMbj4pmydY4NkVF
+6f36zvvJyZpOMiDmOqg1zZ0Hebk2eK9YwDqZovXJPjYK3V9IIsCvj3TX3lB8Squm
+IJEBvEjk1P6pvDmewRm1TE5GOx0UpQPqWMgWrYGT+NM=
+]
+INFO	[2015-06-11 22:06:58:801] <3880> START INIPHP cancel (V5036-141209)(OS:Windows NT6.1,PHP:5.5.25)
+DEBUG	[2015-06-11 22:06:58:801] <3880> inipayhome:C:\Bitnami\wampstack-5.5.25-0\apache2\htdocs\INIpay50
+DEBUG	[2015-06-11 22:06:58:801] <3880> type:cancel
+DEBUG	[2015-06-11 22:06:58:801] <3880> debug:true
+DEBUG	[2015-06-11 22:06:58:801] <3880> mid:INIpayTest
+DEBUG	[2015-06-11 22:06:58:801] <3880> admin:1111
+DEBUG	[2015-06-11 22:06:58:801] <3880> tid:StdpayCARDINIpayTest20150612131026424603
+DEBUG	[2015-06-11 22:06:58:801] <3880> cancelmsg:
+INFO	[2015-06-11 22:06:58:801] <3880> Check Field OK
+INFO	[2015-06-11 22:06:58:801] <3880> PI PUB KEY LOAD OK []
+INFO	[2015-06-11 22:06:58:806] <3880> PG PUB KEY LOAD OK [30]
+INFO	[2015-06-11 22:06:58:807] <3880> MERCHANT PRIV KEY LOAD OK
+INFO	[2015-06-11 22:06:58:807] <3880> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2015-06-11 22:06:58:808] <3880> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayCARDINIpayTest20150612131026424603</CancelTID>
+	  <CancelMsg/>
+	  <CancelReason/></CancelInfo>]
+INFO	[2015-06-11 22:06:58:809] <3880> MAKE BODY OK
+INFO	[2015-06-11 22:06:58:813] <3880> SIGN OK
+INFO	[2015-06-11 22:06:58:813] <3880> MAKE HEAD OK
+INFO	[2015-06-11 22:06:58:813] <3880> MSG_TO_PG:[0084000175D SHA1                   0                                      300420INIpayTest                    StdpayCARDINIpayTest20150612131026424603<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>pop9LqYzUPN9dfvNR34z6ztiKQNONTdt09b1bCpMyOlt/xCGiu0JZhwijYPMTnTu
+UTdA1oKksEKnI/5Z5PWiSrGGWwDkyfIEfRgSnGAFe7PEwOKVdVlFbVp7JVj/SKlD
+04Obq200ThXY63fcP2/pITzKgmg8Ezp742/gXK9sV/s18Ka0dZlIEg==
+</SessionKey>
+	    <Encrypted>Hp1/CIha8Kal6XKHqulU1DY8LQRS4XjwscCDHTwDppwu52UZ38fhBPSvMV68/kHq
+qATFF2cKYQfJ74reVMJVIfupQbtOg0G4Iq783P98WG5+aTWF1o+XPeKdLp6eV45l
+NGmQCt5KCcjYlC/nyZN7nguCtv59wkfyB9hfKIsYAi/zaqTo6bavgfWz88mcuscv
+eyeGiD8uKOeMHbsGOQHHDzQZRsAxfl7Y
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5036B141209canceWindows NTPHPchkfake   6.1PHP:5.5.25                 </TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>mnnsNxsC/JuqCKakQTg7ktGgUQOBxrlpHYkX+vLiSLIjWHwjIbEl5TB3uh8u34pa
+Hc+rIoUJEbFPJAh0UIc6g36UJMXddJy4rRrhSVRTrzY7QUYi2c8It439AGOQcBnJ
+2ndytoC7McVJ2zXP2/0xj9KNTYUzXTC3x5UuDL3Rzuc=
+]
