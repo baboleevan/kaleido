@@ -102,9 +102,9 @@ class Page extends CI_Controller {
 		$data['sdf'] = date("YmdHis");
 		$data['p_oid']=$data['mid']."_".$data['sdf'];		
 		
-		$data['inicis_returnUrl']	=	base_url()."kaleido/page/inicis_return";
-		$data['inicis_popupUrl']	=	base_url()."kaleido/page/inicis_popup";
-		$data['inicis_closeUrl']	=	base_url()."kaleido/page/inicis_close";
+		$data['inicis_returnUrl']	=	BASE_URL."/kaleido/page/inicis_return";
+		$data['inicis_popupUrl']	=	BASE_URL."/kaleido/page/inicis_popup";
+		$data['inicis_closeUrl']	=	BASE_URL."/kaleido/page/inicis_close";
 		$this->load->view("/kaleido/order/inicis_load_v",$data);		
 	}
 	
@@ -973,12 +973,14 @@ class Page extends CI_Controller {
 	//result page
 	function kakaopayLiteResult(){
 		$data = kakaopay_init(); //config init
-		$pg = new Kaleido\Pg();
+		$pg = new Kaleido\Pg([$data]);
 		//$lgcns = $pg->getLgcnsHeandler();
 		
 		// 로그 저장 위치 지정
-		//$connector = new CnsPayWebConnector($LogDir);		
-		$connector = $pg->getLgcnsHeandler([$data]);
+		//$connector = new CnsPayWebConnector($LogDir);	
+		
+		
+		$connector = $pg->getLgcnsHeandler();		
 		$connector->CnsActionUrl($data['CnsPayDealRequestUrl']);//$CnsPayDealRequestUrl
 		$connector->CnsPayVersion($data['phpVersion']);//$phpVersion
 

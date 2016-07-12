@@ -16,12 +16,13 @@ class LgcnsHandler implements LgcnsInterface
 	
 	public function __construct($config)
     {
-		//print_r($config);
+		//echo "<hr>";print_r($config); echo"<hr>";
 		new LgcnsTrait();//init trait		
 		$in_data = array();		
 		if(isset($config) && count($config)>=1) foreach($config[0] as $key => $val)	$in_data["{$key}"]  = $val;		
-		$this->LogDir = isset($in_data["LogDir"])? $in_data["LogDir"]: ""; //받아오면 처리. 아님 말고.		
-		if($this->LogDir) $this->CnsPayWebConnector($this->LogDir); //일단 로그 체크
+		$this->LogDir = isset($in_data["LogDir"])? $in_data["LogDir"]: ""; //받아오면 처리. 아니면 루트 폴더에 생김. 권한 주의.
+		$this->LogPath = isset($in_data["LogPath"])? $in_data["LogPath"]: ""; //받아오면 처리. 아님 루트 폴더에 생김.
+		if($this->LogDir) $this->CnsPayWebConnector($this->LogDir); //일단 로그 체크	
 	}
 		
 	/** lgcns_KMpay 3 object */
@@ -438,6 +439,7 @@ class LgcnsHandler implements LgcnsInterface
 	}
 	public function writeLog($strLogText) 
 	{
+		//echo "=writeLog=".$this->LogPath;
 		$log_string = "";
 		if (is_array($strLogText)) {
 			$log_string = "[".date("Y/m/d H:i:s")."] \r\n";
