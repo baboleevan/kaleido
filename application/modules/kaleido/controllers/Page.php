@@ -194,7 +194,7 @@ class Page extends CI_Controller {
                 try {
 
                     $httpUtil = new HttpClient();
-					var_dump($httpUtil);
+					//var_dump($httpUtil);
 
                     //#####################
                     // 4.API 통신 시작
